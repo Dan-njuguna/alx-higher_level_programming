@@ -5,6 +5,7 @@
  Return: True if c is lowercase and False if otherwise
 '''
 
+
 def islower(c):
     for num in range(97, 123):
         if ord(c) == num:

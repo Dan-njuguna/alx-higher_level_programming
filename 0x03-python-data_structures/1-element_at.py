@@ -16,7 +16,3 @@ def element_at(my_list, idx):
         item_index = my_list.index(item)
         if item_index == idx:
             return item
-
-
-    if __name__ == "__main__":
-                  pass

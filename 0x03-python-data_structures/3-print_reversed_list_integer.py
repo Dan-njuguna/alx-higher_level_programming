@@ -8,6 +8,9 @@
 
 
 def print_reversed_list_integer(my_list=[]):
+    if not my_list:
+        return
+
     llist = len(my_list) - 1
     for i in range(llist, -1, -1):
         print("{}".format(my_list[i]))

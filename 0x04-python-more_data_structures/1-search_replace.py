@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''
- search_replace - replaces all pccurences of an element by another in a new list.
+ search_replace - replaces all 0ccurences of element by another in a new list
  @my_list: list to go through
  @search: to be searched
  @replace: new element

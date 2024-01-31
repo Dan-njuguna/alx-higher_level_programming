@@ -1,4 +1,10 @@
 #!/usr/bin/python3
+'''
+ print_sorted_dictionary - prints the elements of a dictionary in an organized form
+ @a_ductionary: ...
+ Return: nothing
+'''
+
 
 def print_sorted_dictionary(a_dictionary):
     for key in sorted(a_dictionary.keys()):

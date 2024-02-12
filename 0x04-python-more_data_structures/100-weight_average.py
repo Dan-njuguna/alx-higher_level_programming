@@ -10,6 +10,8 @@
 def weight_average(my_list=[]):
     llist = []
     deno = []
+    if my_list is None:
+        return 0
     for tup in my_list:
         a, b = tup
         ans = a * b

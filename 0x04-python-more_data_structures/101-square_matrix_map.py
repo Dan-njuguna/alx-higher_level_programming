@@ -11,7 +11,4 @@
 
 
 def square_matrix_map(matrix=[]):
-    if len(matrix) == 0:
-        return 0
-    new_matrix = list(map(lambda x: list(map((lambda y: (y**2)), x)), matrix))
-    return new_matrix
+    return list(map(lambda x: list(map((lambda y: (y**2)), x)), matrix))

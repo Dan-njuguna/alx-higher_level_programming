@@ -9,4 +9,3 @@ def safe_function(fct, *args):
     except Exception as i:
         print("Exception: {}".format(sys.exc_info()[1]), file=sys.stderr)
         return (None)
-

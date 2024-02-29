@@ -1,6 +1,6 @@
 This file contains text cases for the "add_integer" function.
 Interactive shell: 
->>> from 0_add_integer import add_integer
+>>> from 0-add_integer import add_integer
 >>> add_integer(2, 2)
 4
 >>> add_integer(5, -1)

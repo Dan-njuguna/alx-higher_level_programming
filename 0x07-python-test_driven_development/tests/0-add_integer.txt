@@ -1,6 +1,24 @@
-This file contains text cases for the "add_integer" function.
-Interactive shell: 
->>> from 0-add_integer import add_integer
+=============================================================
+                Using 0-add_integer.py
+=============================================================
+- The module contains add_integer function which performs addition of two integers. 
+
+Syntax
+======
+add_integer(a, b)
+where: 
+    @a: integer
+    @b: integer 2
+Returns the sum of the two arguments as integer(int) type, using the "+" operator. 
+======
+
+Usage
+=====
+
+Interactive shell:
+==================
+
+>>> add_integer = __import__("0-add_integer").add_integer
 >>> add_integer(2, 2)
 4
 >>> add_integer(5, -1)
@@ -13,3 +31,14 @@ TypeError: b must be an integer
 Traceback (most recent call last):
     ...
 TypeError: a must be an integer
+>>> add_integer(2.3, 4)
+6
+>>> add_integer(2.7, 4)
+6
+>>> add_integer(-2, 6)
+4
+>>> add_integer(-6, 2)
+-4
+
+
+==============================================================

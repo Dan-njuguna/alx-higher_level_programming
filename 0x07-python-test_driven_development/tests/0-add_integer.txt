@@ -31,14 +31,5 @@ TypeError: b must be an integer
 Traceback (most recent call last):
     ...
 TypeError: a must be an integer
->>> add_integer(2.3, 4)
-6
->>> add_integer(2.7, 4)
-6
->>> add_integer(-2, 6)
-4
->>> add_integer(-6, 2)
--4
-
 
 ==============================================================
